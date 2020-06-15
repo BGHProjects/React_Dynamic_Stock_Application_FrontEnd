@@ -1,0 +1,188 @@
+/* Full Application Styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+header {
+  color: #020e30;
+  background: #e54700;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+body {
+  background: #020e30;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SearchTitle {
+  text-align:center;
+}
+
+/* Navigation Bar Styling */
+
+nav ul li {
+  display: inline-block;
+  text-align: right;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  text-align: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+  text-align: right;
+}
+
+nav ul li a:hover {
+  background: #ffcc06;
+}
+
+/* Logout Button */
+
+.logoutButton {
+  background: #e54700;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoutButton a {
+  transition: 0.3s ease all;
+}
+
+.logoutButton a:hover {
+  background: #ffcc06;
+}
+
+/* Landing Page Styling */
+
+.LPF__title {
+  font-size: 100px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.LPF__subtitle {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.LPF__content {
+  color: #fff;
+  padding-top: 25px;
+  text-align: center;
+}
+
+/* links on the Landing Page */
+.LPF__content a {
+  display: inline-block;
+  color: #fff;
+  border: 3px solid #e54700;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+  transition: 0.3s ease all;
+}
+
+.LPF__content a:hover {
+  padding: 20px 40px;
+  font-size: 36px;
+}
+
+/* Stock Search Page Styling */
+
+.StockSearchContent {
+  display: inline-block;
+}
+
+/* Login Page Styling */
+
+.LoginContent {
+  color: white;
+}
+
+.emailInputBox {
+  width: 280px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  outline: none;
+}
+
+input[type=text]:focus{
+  border-radius: 5px;
+  border: 3px solid #e54700;
+}
+
+input[type=password]:focus {
+  border-radius: 5px;
+  border: 3px solid #e54700;
+}
+
+
+.passwordInputBox {
+  width:280px;
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.submitButton {
+  width: 100px;
+  position: absolute;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.DetailsPageTitle{
+  font-size: 60px;
+}
+
+/* Table Styling */
+
+.ag-theme-balham {
+  top:50%;
+  left:25%;
+}
+
+/* Other Features */
+
+.logInWarning {
+  position: absolute;
+}
+
+

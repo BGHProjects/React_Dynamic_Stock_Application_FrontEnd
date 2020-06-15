@@ -1,14 +1,68 @@
-# NO LONGER FUNCTIONAL
-This application was dependent on an API that was housed behind a firewall on available through a VPN provided by my university, which is no longer accessible
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# React_Dynamic_Stock_Application_FrontEnd
-A web application primarily using React.js that queries a stocks API to dynamically display information for authenticated and unauthenticated users
+## Available Scripts
 
-# Application description
-The purpose of this React-based web application is to allow users to view and analyse stock market statistics from a specifically created database, exposed via a REST API. From an initial Landing Page, the user can either navigate directly to a list of available stocks drawn from an American stock market exchange called Stock Search as a guest, log into an account or register a new one. When using Stock Search as a guest, users can filter through the list stocks by industry, and clicking on a listed stock navigates the user to a Stock Details page, where they can view the latest stock market entry for that company. Following a successful log in from either an already existing account or a newly registered one, an authenticated user can navigate to an authenticated Stock Details page from Stock Search, where the user can view all the entries for the company, and search the entries via dates, and view a graphical representation of the closing prices of that company’s stocks. 
+In the project directory, you can run:
 
-# Uses the following technologies/libraries:
-- AG-Grid-React to display stocks information
-- React-Chartjs-2 to visual display stocks information
-- React-router-dom to navigate between different pages of the application
-- Jsonwebtoken to provide web token functionality for user authentication
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
