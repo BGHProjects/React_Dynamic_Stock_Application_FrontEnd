@@ -1,5 +1,5 @@
 # NO LONGER FUNCTIONAL
-This application was dependent on an API that was housed behind a firewall on available through a VPN provided by my university, which is no longer accessible
+This application was dependent on an API that was housed behind a firewall only available through a VPN provided by my university, which is no longer accessible
 
 # React_Dynamic_Stock_Application_FrontEnd
 A web application primarily using React.js that queries a stocks API to dynamically display information for authenticated and unauthenticated users
